@@ -7,8 +7,8 @@ from filters_noise import apply_filters_noise
 from segmentation_edge import apply_seg_edge
 from morphology import apply_morphology
 
-st.set_page_config(page_title="DIP Project V2", layout="wide")
-st.title("Digital Image Processing Tool (Academic Version)")
+st.set_page_config(page_title="DIP Project ", layout="wide")
+st.title("Digital Image Processing Tool ")
 
 tasks = {
     "1. Point & Color Operations": ["Addition", "Subtraction", "Division", "Complement", "Change Red Lighting", "Swap R to G", "Eliminate Red"],
